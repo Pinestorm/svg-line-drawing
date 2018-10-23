@@ -1,0 +1,9 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 64px;
+  top: 162px;
+  opacity: 0;
+  animation: fade-in 1s linear forwards;
+}
