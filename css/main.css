@@ -63,3 +63,117 @@ h1 {
   }
 
 }
+
+#rainbow-indigo {
+  animation: indigo-animation 3s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1812;
+  stroke-dashoffset: 1812;
+}
+
+@keyframes indigo-animation {
+
+  0% {
+    stroke-dashoffset: 1812px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-blue {
+  animation: blue-animation 1s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
+}
+
+@keyframes blue-animation {
+
+  0% {
+    stroke-dashoffset: 1705px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-green {
+  animation: green-animation 1s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
+}
+
+@keyframes green-animation {
+
+  0% {
+    stroke-dashoffset: 1596px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-yellow {
+  animation: yellow-animation 1s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
+}
+
+@keyframes yellow-animation {
+
+  0% {
+    stroke-dashoffset: 1483px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-orange {
+  animation: orange-animation 1s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
+}
+
+@keyframes orange-animation {
+
+  0% {
+    stroke-dashoffset: 1366px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-red {
+  animation: red-animation 1s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
+}
+
+@keyframes red-animation {
+
+  0% {
+    stroke-dashoffset: 1243px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
