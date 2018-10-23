@@ -12,19 +12,20 @@ h1 {
 
 #narwhal-eye {
   opacity: 0;
-  animation: opacity 3s linear;
+  animation: fade-in 1s .5s linear;
   animation-fill-mode: forwards;
 }
 
 @keyframes fade-in {
 
   0% {
-    opacity; 0;
+    opacity: 0;
   }
 
   100% {
     opacity: 1;
   }
+
 }
 
 #narwhal-body {
@@ -43,6 +44,7 @@ h1 {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-violet {
