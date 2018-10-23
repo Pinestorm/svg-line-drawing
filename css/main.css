@@ -1,9 +1,65 @@
-h1 {
+html {
   font-family: "Unica One", sans-serif;
-  color: #fff;
+}
+
+h1 {
   position: absolute;
   left: 64px;
   top: 162px;
   opacity: 0;
   animation: fade-in 1s linear forwards;
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: opacity 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity; 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#narwhal-body {
+  animation: body-animation 2s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 1982px;
+}
+
+@keyframes body-animation {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-violet {
+  animation: violet-animation 3s linear;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
+}
+
+@keyframes violet-animation {
+
+  0% {
+    stroke-dashoffset: 1918px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
 }
